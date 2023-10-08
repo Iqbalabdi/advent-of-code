@@ -1,4 +1,3 @@
-
 file = open("input.txt", "r")
 count = 0
 arr = []
@@ -10,7 +9,7 @@ for line in file:
         count = 0
 
 ### Part 1
-print(max(count))
+print(max(arr))
 
 ### Part 2
 arr.sort(reverse=True)
